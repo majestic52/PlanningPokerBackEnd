@@ -1,0 +1,6 @@
+@Poker2_HostAddress = http://localhost:5189
+
+GET {{Poker2_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

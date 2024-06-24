@@ -9,24 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77834571-2979-4f77-b887-23c3173d9080" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Poker2/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Poker2/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Poker2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Poker2.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Poker2/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Poker2/Hubs/PokerHub.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Poker2/Models/UserConnection.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Poker2/Poker2.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Poker2/Poker2.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Poker2/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Poker2/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Poker2/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Poker2/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Poker2/compose.yml" afterDir="false" />
-    </list>
+    <list default="true" id="77834571-2979-4f77-b887-23c3173d9080" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +34,7 @@
   "keyToString": {
     ".NET Launch Settings Profile.Poker2: IIS Express.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -152,7 +135,7 @@
       <option name="presentableId" value="Default" />
       <updated>1719161115944</updated>
       <workItem from="1719161116492" duration="8478000" />
-      <workItem from="1719200780164" duration="2713000" />
+      <workItem from="1719200780164" duration="3262000" />
     </task>
     <servers />
   </component>

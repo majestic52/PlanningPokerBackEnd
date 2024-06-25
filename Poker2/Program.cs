@@ -1,7 +1,11 @@
+using Poker2.DataAccess;
 using Poker2.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddSignalR();
+builder.Services.AddSwaggerGen();
+builder.Services.AddControllers();
+builder.Services.AddScoped<TableDBContext>();
 
 builder.Services.AddStackExchangeRedisCache(options =>
 {
@@ -22,7 +26,18 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
+using var scope = app.Services.CreateScope();
+await using var dbContext = scope.ServiceProvider.GetRequiredService<TableDBContext>();
+await dbContext.Database.EnsureCreatedAsync();
+
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
 app.UseCors();
+app.MapControllers();
 
 app.MapHub<PokerHub>("/table");
 

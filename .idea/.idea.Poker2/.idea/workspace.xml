@@ -10,7 +10,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77834571-2979-4f77-b887-23c3173d9080" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Poker2/Contracts/CreateTableRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Poker2/Contracts/CreateUserRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Poker2/Contracts/GetTablesRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Poker2/Contracts/GetTablesResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Poker2/Contracts/GetUsersRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Poker2/Contracts/GetUsersResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Poker2/Contracts/TableDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Poker2/Contracts/UserDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Poker2/Controllers/TableController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Poker2/DataAccess/TableDBContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Poker2/Models/Tables.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Poker2/Models/Users.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Poker2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Poker2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poker2/Models/UserConnection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Poker2/Models/UserConnection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poker2/Poker2.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Poker2/Poker2.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poker2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Poker2/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poker2/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/Poker2/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poker2/compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Poker2/compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +154,7 @@
       <option name="presentableId" value="Default" />
       <updated>1719161115944</updated>
       <workItem from="1719161116492" duration="8478000" />
-      <workItem from="1719200780164" duration="4574000" />
+      <workItem from="1719200780164" duration="22145000" />
     </task>
     <servers />
   </component>
